@@ -19,7 +19,7 @@ def getData(url):
 
 if __name__ == "__main__":
     while True:
-        # notifyMe("Harry", "Lets stop the spread of this virus together")
+        # notifyMe("Levi", "Lets stop the spread of this virus together")
         myHtmlData = getData('https://www.mohfw.gov.in/')
 
         soup = BeautifulSoup(myHtmlData, 'html.parser')
